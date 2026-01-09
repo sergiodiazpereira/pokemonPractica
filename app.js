@@ -274,8 +274,8 @@ function buscarPokemonJQueryAJAX() {
     });
 }
 
-document.getElementById('search-btn').addEventListener('click',buscarPokemon);
-//document.getElementById('search-btn').addEventListener('click',buscarPokemonJQueryAJAX);
+//document.getElementById('search-btn').addEventListener('click',buscarPokemon);
+document.getElementById('search-btn').addEventListener('click',buscarPokemonJQueryAJAX);
 
 
 function agregarAColeccion(pokemon) {
@@ -310,4 +310,5 @@ function mostrarColeccion() {
 $(document).ready(function () {
     // Evento para el botón "Ver colección" de tu HTML
     $("#view-collection-btn").on("click", mostrarColeccion);
+
 });
