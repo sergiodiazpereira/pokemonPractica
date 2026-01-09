@@ -97,6 +97,17 @@ body::before {
   transition: background-color 0.3s ease;
 }
 
+#boton-anadir{
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  color: #000;
+  background-color: #00f7ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
 #search-btn:hover {
   background-color: #ff6347;
 }
